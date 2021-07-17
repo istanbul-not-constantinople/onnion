@@ -43,8 +43,3 @@ export const Accumulator = (name: string, objective: ObjectiveArgument, entity: 
     execute.if.score(entity, objective, 'matches', [1,]).run(bymax(`${name}/positive`, objective, entity, executor, macks, options?.factor ?? 2, options?.onConflict));
   }, { onConflict: options?.onConflict });
 };
-
-Accumulator('test', 'score', '@s', (num) => say(num), {
-  max: 512,
-  polarity: '+-',
-});
