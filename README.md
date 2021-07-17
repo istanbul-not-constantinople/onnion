@@ -1,4 +1,5 @@
-# mcfunction library written by radiish and built with sandstone
+# onnion (with 2 'n's)
+### an mcfunction library written by radiish and built with sandstone
 
 commit format:
 | commit        | small | large |
