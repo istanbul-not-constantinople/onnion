@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2019",
+    "lib": [
+      "es2020"
+    ],
+    "strict": true,
+    "esModuleInterop": false,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": false,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "outDir": "build"
+  },
+  "include": [
+    "src"
+  ],
+}

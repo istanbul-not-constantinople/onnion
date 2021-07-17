@@ -1,0 +1,56 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-namespace": "off",
+    "no-async-promise-executor": "off",
+    "no-lonely-if": 1,
+    "keyword-spacing": "warn",
+    "array-bracket-spacing": "warn",
+    "comma-dangle": [
+      "warn",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "prefer-arrow-callback": "warn",
+    "arrow-parens": "warn",
+    "curly": "warn",
+    "object-curly-spacing": [
+      "warn",
+      "always"
+    ],
+    "key-spacing": "warn",
+    "comma-spacing": "warn",
+    "arrow-spacing": "warn",
+    "quotes": [
+      "warn",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "semi": "warn"
+  }
+}
